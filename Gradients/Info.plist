@@ -28,6 +28,12 @@
 	<array>
 		<string>armv7</string>
 	</array>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleLightContent</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Gradients needs your permissions to save gradients to the Photo Library.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Gradients needs your permissions to save gradients to the Photo Library.</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

@@ -12,6 +12,10 @@
 		400119F221A914F300850CC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 400119F021A914F300850CC8 /* Main.storyboard */; };
 		400119F421A914F400850CC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 400119F321A914F400850CC8 /* Assets.xcassets */; };
 		400119F721A914F400850CC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 400119F521A914F400850CC8 /* LaunchScreen.storyboard */; };
+		400119FF21A919B300850CC8 /* GradientsBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400119FE21A919B300850CC8 /* GradientsBrain.swift */; };
+		40011A0121A925A500850CC8 /* SoundsBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40011A0021A925A500850CC8 /* SoundsBrain.swift */; };
+		40011A0321A9267800850CC8 /* changed.wav in Resources */ = {isa = PBXBuildFile; fileRef = 40011A0221A9267800850CC8 /* changed.wav */; };
+		40011A0521A9283F00850CC8 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40011A0421A9283F00850CC8 /* Stack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		400119F321A914F400850CC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		400119F621A914F400850CC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		400119F821A914F400850CC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		400119FE21A919B300850CC8 /* GradientsBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientsBrain.swift; sourceTree = "<group>"; };
+		40011A0021A925A500850CC8 /* SoundsBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsBrain.swift; sourceTree = "<group>"; };
+		40011A0221A9267800850CC8 /* changed.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = changed.wav; sourceTree = "<group>"; };
+		40011A0421A9283F00850CC8 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +63,15 @@
 			isa = PBXGroup;
 			children = (
 				400119EC21A914F300850CC8 /* AppDelegate.swift */,
-				400119EE21A914F300850CC8 /* ViewController.swift */,
-				400119F021A914F300850CC8 /* Main.storyboard */,
 				400119F321A914F400850CC8 /* Assets.xcassets */,
-				400119F521A914F400850CC8 /* LaunchScreen.storyboard */,
+				40011A0221A9267800850CC8 /* changed.wav */,
+				400119FE21A919B300850CC8 /* GradientsBrain.swift */,
 				400119F821A914F400850CC8 /* Info.plist */,
+				400119F521A914F400850CC8 /* LaunchScreen.storyboard */,
+				400119F021A914F300850CC8 /* Main.storyboard */,
+				40011A0021A925A500850CC8 /* SoundsBrain.swift */,
+				40011A0421A9283F00850CC8 /* Stack.swift */,
+				400119EE21A914F300850CC8 /* ViewController.swift */,
 			);
 			path = Gradients;
 			sourceTree = "<group>";
@@ -123,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				400119F721A914F400850CC8 /* LaunchScreen.storyboard in Resources */,
+				40011A0321A9267800850CC8 /* changed.wav in Resources */,
 				400119F421A914F400850CC8 /* Assets.xcassets in Resources */,
 				400119F221A914F300850CC8 /* Main.storyboard in Resources */,
 			);
@@ -135,6 +148,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40011A0121A925A500850CC8 /* SoundsBrain.swift in Sources */,
+				40011A0521A9283F00850CC8 /* Stack.swift in Sources */,
+				400119FF21A919B300850CC8 /* GradientsBrain.swift in Sources */,
 				400119EF21A914F300850CC8 /* ViewController.swift in Sources */,
 				400119ED21A914F300850CC8 /* AppDelegate.swift in Sources */,
 			);
@@ -285,6 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZM2TBP23P7;
 				INFOPLIST_FILE = Gradients/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +320,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZM2TBP23P7;
 				INFOPLIST_FILE = Gradients/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
