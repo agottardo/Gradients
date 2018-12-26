@@ -13,13 +13,13 @@ import AVFoundation
  Used to play UI sounds. 🎹
  */
 class SoundsBrain {
-    
+
     /// It's a singleton.
     static let shared = SoundsBrain()
     private init() {}
-    
+
     var player: AVAudioPlayer?
-    
+
     /// Notifies the user of a successful action.
     func notifySuccess() {
         do {
@@ -34,5 +34,5 @@ class SoundsBrain {
             print("SoundsBrain: notifySuccess failed with \(error.localizedDescription)")
         }
     }
-    
+
 }

@@ -20,6 +20,10 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Gradients needs your permissions to save gradients to the Photo Library.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Gradients needs your permissions to save gradients to the Photo Library.</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
@@ -30,15 +34,9 @@
 	</array>
 	<key>UIStatusBarStyle</key>
 	<string>UIStatusBarStyleLightContent</string>
-	<key>NSPhotoLibraryAddUsageDescription</key>
-	<string>Gradients needs your permissions to save gradients to the Photo Library.</string>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Gradients needs your permissions to save gradients to the Photo Library.</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
